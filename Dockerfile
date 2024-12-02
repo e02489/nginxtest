@@ -3,7 +3,7 @@ FROM nginx:latest
 
 # Copy your website's content (e.g., HTML files) into the NGINX container
 # Assuming you have a local directory 'html/' containing your website files
-COPY ./html /usr/share/nginx/html
+
 
 # Optional: Copy a custom NGINX configuration file (default.conf)
 # This will replace the default NGINX configuration file inside the container
